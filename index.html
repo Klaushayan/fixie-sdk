@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="API and SDK documentation for Fixie" /><link rel="canonical" href="https://fixie.ai/" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Fixie Developer Portal</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link href="assets/_mkdocstrings.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Introduction";
+        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_url = "/";
+      </script>
+    
+    <script src="js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".">
+          <img src="assets/fixie-logo-docs.png" class="logo" alt="Logo"/>
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href=".">Introduction</a>
+    <ul class="current">
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="architecture/">Architecture</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Building Fixie Agents</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="agent-quickstart/">Agent QuickStart</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="agents/">Fixie Agent API</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="agent-protocol/">Agent Protocol</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Python SDK</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="python-client-api/">Python Client API</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="python-agent-api/">Python Agent API</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Command line interface</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="cli/">CLI</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">GraphQL API</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="https://app.fixie.ai/static/docs/index.html">GraphQL</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Other links</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="https://github.com/fixie-ai/fixie-sdk">GitHub</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://discord.gg/MsKAeKF8kU">Discord</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="https://twitter.com/fixieai">Twitter</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">Fixie Developer Portal</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Introduction</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="fixie-developer-portal">Fixie Developer Portal 🦊</h1>
+<p><a href="https://fixie.ai">Fixie</a> is a platform for building applications using Large Language
+Models. With Fixie, you can write apps that communicate, in natural
+language, with one or more <em>Agents</em> that can access individual APIs or
+sources of data, such as GitHub, Google Calendar, or a database.</p>
+<p>You can access the Fixie web interface at <a href="https://app.fixie.ai">app.fixie.ai</a>.
+Using the Fixie SDK allows you to connect your own
+applications to the Fixie platform, either as a client, or by
+building custom agents that plug into the platform.</p>
+<p>To learn more about Fixie, check us out at <a href="https://fixie.ai">https://fixie.ai</a>.</p>
+<blockquote>
+<p>🔥 <strong>Fixie Developer Preview</strong></p>
+<p>Fixie is currently available as a Developer Preview. During this time, Fixie is free to use,
+however, there is a limit on the number of queries per user per day. Please check out
+<a href="developer-preview/">Fixie Develper Preview</a> for more information.</p>
+<p>🤔 <strong>Need help?</strong></p>
+<p>The best way to contact us and get support is to join our <a href="https://discord.gg/MsKAeKF8kU">Discord server</a>.</p>
+</blockquote>
+<hr />
+<h1 id="getting-started">Getting started</h1>
+<ol>
+<li>Verify you can access <a href="http://app.fixie.ai">app.fixie.ai</a> with your Google or GitHub email</li>
+<li>Install the fixie CLI with <code>pip install fixieai</code> and run <code>fixie auth</code> to ensure your are successfully authenticated</li>
+<li>Fork the <a href="https://github.com/fixie-ai/fixie-examples">examples repo</a></li>
+<li>Choose any of the example agents, <code>cd</code> into the directory, and run <code>fixie agent deploy</code></li>
+<li>Test that agent by running <code>fixie console -a username/agent_name</code> and inputting a test query. You can also run <code>fixie console</code> and then @ your specific agent (e.g. <code>@username/agent_name this is the query</code>)</li>
+<li>You can also talk to deployed agents directly at <a href="http://app.fixie.ai">app.fixie.ai</a></li>
+<li>For local development and testing, you can also run your agent locally with <code>fixie agent serve</code>. This is easier for debugging what’s happening when things go wrong. This will create a tunnel to your local machine. After running serve, open a new terminal window and talk to the agent just like in step 5.</li>
+</ol>
+<p>Example of query using SDK:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">fixieai</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">fixieai</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s2">&quot;How many countries start with the letter R ?&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+</code></pre></div>
+
+<h1 id="agent-examples">Agent Examples</h1>
+<p>Agents are at the heart of the Fixie ecosystem, and we make it easy to build and contribute your own. To get started you can scaffold out a default agent by running: <code>fixie init</code>. For more examples
+check out <a href="agents/">Building Fixie Agents</a> and our <a href="https://github.com/fixie-ai/fixie-examples">examples repo</a>.</p>
+<h1 id="documentation">Documentation</h1>
+<p>Check out the links below for more information on how to get started using Fixie.</p>
+<h2 id="tutorials">Tutorials</h2>
+<ul>
+<li><a href="architecture/">Fixie Architecture Overview</a></li>
+<li><a href="agent-quickstart/">Agent Quickstart</a></li>
+<li><a href="agents/">Building Fixie Agents</a></li>
+<li><a href="agent-protocol/">Agent Protocol</a></li>
+</ul>
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a href="cli/">Fixie CLI Reference</a></li>
+<li><a href="python-client-api/">Python Client API</a></li>
+<li><a href="python-agent-api/">Python Agent API</a></li>
+<li><a href="https://app.fixie.ai/static/docs/index.html">Fixie GraphQL API Reference</a></li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="architecture/" class="btn btn-neutral float-right" title="Architecture">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Copyright (c) 2023 Fixie.ai, Inc.</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+      <span><a href="architecture/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.4.2
+Build Date UTC : 2023-03-28 16:52:55.797662+00:00
+-->
